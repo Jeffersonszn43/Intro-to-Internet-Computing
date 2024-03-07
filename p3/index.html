@@ -1,0 +1,95 @@
+<!-- Created by: Jefferson Charles -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Statistical Analysis App</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Here is the Bootstrap Template I am using for the App -->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<!-- Here is the part of the bootstrap template that produces the color purple around the borders of the webpage-->
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<!-- Here is the image of the computer that is shown on the left side of the web application and we are using a tilt effect on the image when the user hover over the computer with their cursor. -->
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="images/img-01.png" alt="IMG">
+				</div>
+
+				<form class="login100-form validate-form">
+					<span class="login100-form-title">
+						Statistical Analysis App
+					</span>
+
+                    <!-- Here the part of the code that shows the areas where the user is able to enter the three numbers to be calculated-->
+					<div class="wrap-input100 validate-input">
+						<label for = "number 1">Number 1:</label>
+						<input class="input100" type="text" id="number1" placeholder="First Number">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						<label for = "number 2">Number 2:</label>
+						<input class="input100" type="text" id="number2" placeholder="Second Number">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">   
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						<label for = "number 3">Number 3:</label>
+						<input class="input100" type="text" id="number3" placeholder="Third Number">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100"></span>
+					</div>
+					
+					<!-- Here is the button that says calculate for the user to press to do the calculations-->
+					<div class="container-login100-form-btn">
+						<button type = "button" class="login100-form-btn" onclick = "Statscalc()">
+							Calculate
+						</button>
+					</div>
+					
+					<!-- Here is where we are producing the results of the calculations -->
+                    <div id = "results" class = "mt-4">
+						<h4>Results:</h4>
+						<p>Max = <span id = "maxResult"></span></p>
+						<p>Min = <span id = "minResult"></span></p>
+						<p>Mean = <span id = "meanResult"></span></p>
+						<p>Median = <span id = "medianResult"></span></p>
+						<p>Range = <span id = "rangeResult"></span></p>
+			        </div>
+				</form>
+				<footer text-align ="center">Created by: Jefferson Charles</footer>
+			</div>
+		</div>
+	</div>
+	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js"></script>
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	
+	<!-- Here, the jquery library is being used to provide a tilt effect to the computer image that is on the right side of the web application. -->
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+	<!-- Here is where I am connecting the javascript file that is used to do the calculations -->
+	<script src="js/myjs.js"></script>
+
+</body>
+</html>

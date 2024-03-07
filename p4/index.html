@@ -1,0 +1,71 @@
+<!-- Here is the html code for the tic-tac-toe game -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Here are meta tags that were included in the bootstrap template -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Colorlib Templates">
+        <meta name="author" content="Colorlib">
+        <meta name="keywords" content="Colorlib Templates">
+
+        <!-- Here is the title page for the web application -->
+        <title>Tic-Tac-Toe Game Application</title>
+
+        <!-- Here are link tags that provides the html more external css files. These were also included in the bootstrap template -->
+        <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+        <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+        <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+        <!-- Here is where we are connecting the CSS portion to the html code. Here is also where we have the jQuery and toastr libraries.-->
+        <link href="css/main.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" type="text/css" href="mycss.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Here is where we are creating each of the cells that will be shown on the board. There are 9 cells in total.  -->
+        <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+            <div class="wrapper wrapper--w680">
+                <div class="card card-1">
+                    <div class="card-heading"></div>
+                    <div class="card-body">
+                        <h2 class="title">Tic-Tac-Toe</h2>
+                        <div class="game">
+                            <div class="grid" id="grid">
+                                <div class="cell" data-cell></div>
+                                <div class="cell" data-cell></div>
+                                <div class="cell" data-cell></div>
+                                <div class="cell" data-cell></div>
+                                <div class="cell" data-cell></div>
+                                <div class="cell" data-cell></div>
+                                <div class="cell" data-cell></div>
+                                <div class="cell" data-cell></div>
+                                <div class="cell" data-cell></div>
+                            </div>
+                            <!-- Here is the restart button that will allow players to restart the game at anytime -->
+                            <button id="restart-btn">Restart</button>
+                            <!-- Here is where the status of the game is that tells players whos turn it is -->
+                            <div id="status">X's turn</div>
+                            <footer>Created by: Jefferson Charles</footer> <!-- Here is where I put a footer that has my name that will be shown on the bottom of the web application -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- These were also included in the bootstrap template -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/select2/select2.min.js"></script>
+        <script src="vendor/datepicker/moment.min.js"></script>
+        <script src="vendor/datepicker/datarangepicker.js"></script>
+
+        <!-- Here is where we are connecting the JavaScript code to the html code -->
+        <script src="js/global.js"></script>
+        <script src="myjs.js"></script>
+    </body>
+</html>

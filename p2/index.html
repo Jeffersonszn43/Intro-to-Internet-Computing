@@ -1,0 +1,152 @@
+<!-- Created by: Jefferson Charles -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mycss.css">
+
+        <!-- Here is were we are adding bootstrap to the webpage -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <title>Jefferson Charles - Resume</title>
+    </head>
+    <body>
+        <!-- Here is where we are adding the navbar to the top of the webpage -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#relevant courses">Courses</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+            </div>       
+        </nav>
+        <header>
+            <div class="container-fluid bg-1 text-center">  
+                <h1>Jefferson Charles</h1>
+                <h4>Computer Engineering Student</h4>
+                <p><a href="https://www.linkedin.com/in/jeffersonlcharles/">www.linkedin.com/in/jeffersonlcharles</a></p>
+                <img src="Myphoto.jpg" class="img-responsive img-circle margin" style="display:inline">
+            </div> 
+        </header>
+
+        <section id="education">
+            <div class="container-fluid bg-2 text-center">
+                <h2>Education</h2>
+                <p><strong>Florida Atlantic University - Boca Raton, FL</strong></p>
+                <ul>
+                  <li>Bachelors Degree Program in Computer Engineering - December 2024</li>
+                </ul>
+                <p><strong>GPA:</strong> 3.60/4.00</p>
+                <p>Here is the Computer Engineering page from the College of Engineering and Computer Science website from FAU: <a href="https://www.fau.edu/engineering/eecs/undergraduate/computer-engineering/">FAU Computer Engineering Bachelors Program</a></p>
+            </div>
+        </section>
+
+        <section id="relevant courses">
+            <div class="container-fluid bg-3 text-center">
+                <h2>Relevant Courses</h2>
+                <ol class="centered-list">
+                    <li>Design of Digital Systems</li>
+                    <li>Intro to VLSI Design</li>
+                    <li>Electronics 1 and Lab</li>
+                    <li>Data Structures and Algorithm Analysis</li>
+                    <li>Circuits 1</li>
+                    <li>Intro to Microprocessor systems</li>
+                    <li>Intro to Logic Design</li>
+                    <li>Foundations of Computer Science</li>
+                    <li>Intro to Programming in C</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container-fluid bg-4 text-center">
+                <h2>Skills</h2>
+                <div>
+                    <span><strong>Languages:</strong></span> C, C++, Python, MSP 430G2553 Assembly, VHDL
+                </div>
+    
+                <div>
+                    <span><strong>Software:</strong></span> Altera Quartus II, Code Composer Studio, PSPICE, Advanced Design System, Lasi7, Vivado
+                </div>
+    
+                <div>
+                    <span><strong>Hardware:</strong></span> Raspberry Pi, Digital Multimeter, Soldering, Field Programmable Gate Arrays
+                </div>
+    
+                <div>
+                    <span><strong>Operating Systems:</strong></span> Linux, Windows
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container-fluid bg-5 text-center">
+                <h2>Projects</h2>
+                <figure>
+                   <img src="RGB Project.jpg" class="img-responsive img-circle margin" style="display: inline; border: 3px solid black; border-radius: 50%; max-width: 200ox;">
+                   <figcaption><strong>RGB Lab</strong>: This project is designed to have a user choose a color on a color wheel and have an arrow on the wheel turn to that color. The project also displays the color the user enters vibrantly with LEDs and displays a number to the user corresponding to the color the user enters. Python was used to create the software for the project. Here is a link to my GitHub page that shows a repository of this project: <a href="https://github.com/Jeffersonszn43/RGB-Project.git">RGB Project</a>.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container-fluid bg-6 text-center">
+                <h2>Experience</h2>
+                <p><em>Smart Adaptive Remote Laboratories Research Group Team Lead</em> - Boca Raton, FL</p>
+                <p><strong>Latin American and Caribbean Consortium of Engineering Institutions - October 2022 - Present</strong></p>
+                <ul class="centered-list">
+                   <li> Determined design approaches and parameters to create an architecture for students that provides a virtual interface for remote FPGA programming.</li>
+                   <li> Creating Communication between the Raspberry Pi and the FPGA that will allow the Raspberry Pi to program the student's project file into the FPGA.</li>
+                   <li> Selected components and equipment based on analysis of specifications and requirements of the project.</li>
+                </ul>
+            
+                <p><em> Sales Associate</em> - West Palm Beach, FL</p>
+                <p><strong> Famous Footwear - January 2022 - Present</strong></p>
+                <ul class="centered-list">
+                  <li> Utilize customer service skills to greet customers coming in and out of the store and guide customers to the shoes they want to purchase.</li>
+                  <li> Collaborate with other associates to recover the store and to work on the cash register to ring customers after they have found the shoes they need.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="activities">
+            <div class="container-fluid bg-7 text-center">
+                <h2>Activities</h2>
+                <table>
+                    <tr>
+                        <td>IEEE, Member</td>
+                        <td>April 2023 - Present</td>
+                    </tr>
+                    <tr>
+                        <td>LACCEI, SARL Team Lead</td>
+                        <td>October 2022 - Present</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    
+        <footer id="footer" class="container-fluid bg-8 text-center">
+            <p><em>Contact: West Palm Beach, FL | (561) 670-0378 | jeffersoncha2021@fau.edu</em></p>
+        </footer>
+        
+    </body>
+</html>

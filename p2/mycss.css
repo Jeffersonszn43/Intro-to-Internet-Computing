@@ -1,0 +1,103 @@
+header {
+    font-size: 11pt;
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Here I am using !important in order to remove any unnessary css effect from interfering with the styling of the navbar like its borders, for example. */
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    background-color: black !important;
+}
+
+/* I am also using !important here to make sure that the colors of the links on the right side of my navbar to stay bright cyan */
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+h1 {
+    font-size: 20pt;
+    padding-bottom: 0px;
+    
+} 
+
+h2 {
+    font-size: 20pt;
+    padding: 5px;
+}
+
+table {
+    width: 30%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px; 
+    text-align: center;
+}
+
+a {
+    color: blue;
+} 
+
+body {
+    background-color: white;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color:#f5f6f7;
+} 
+
+ol.centered-list {
+    list-style-position: inside;
+}
+
+ul.centered-list {
+    list-style-position: inside;
+}
+
+.margin{
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    background-color: #1abc9c;
+    color: black;
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    color: black;
+}
+
+.bg-3 {
+    background-color: #474e5d;
+    color: black;
+    padding-bottom: 40px;
+}
+
+.bg-8 {
+    background-color: #474e5d;
+    color: lightgray;
+    border: none;
+}
+
+footer {
+    margin-top: 0;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    padding: 20px;
+} 
+
+
