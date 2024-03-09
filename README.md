@@ -1,5 +1,5 @@
 ## Intro to Internet Computing Projects
-#### Here is a repository of the web applications I created for the Internet Computing course. I created five differnt projects from the course, which were:
+#### Here is a repository of the web applications I created for the Internet Computing course. I created five different projects from the course, which were:
 
 ### 1. Online Resume: 
 
